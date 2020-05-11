@@ -1,6 +1,7 @@
 
 #-*- coding:utf-8-*-
 #全局解释器锁实现多线程操作，解决全局变量共享导致的无法及时更新的问题
+#
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
